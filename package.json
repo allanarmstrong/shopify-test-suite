@@ -1,0 +1,21 @@
+{
+  "name": "shopify-test-suite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node selenium.js",
+    "selenium": "java -jar -Dwebdriver.chrome.driver=chromedriver selenium-server-standalone-3.0.1.jar",
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.6.3"
+  }
+}
